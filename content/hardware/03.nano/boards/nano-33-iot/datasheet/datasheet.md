@@ -1,6 +1,6 @@
 ---
-identifier: ABX00027
-title: Arduino® Nano 33 IoT
+identifier: ABX00032
+title: Arduino® Nano 33 IoT with headers
 type: maker
 ---
 ![](assets/featured.jpg)
@@ -40,9 +40,8 @@ Maker, enhancements, basic IoT application scenarios
         - IEEE 802.11g up to 54MBit
         - IEEE 802.11n up to 72MBit
         - 2.4 GHz, 13 channels
-        - 16dBm output power
-        - 19 dBm EIRP
         - -96 dBm sensitivity 
+        - Built-in antenna
     - **Bluetooth®  BR/EDR**
         - Max 7 peripherals
         - 2.4 GHz, 79 channels
@@ -101,6 +100,10 @@ As all Nano form factor boards, Nano 33 IoT does not have a battery charger but 
 | PMax    | Maximum Power Consumption                | -    | -    | TBC  | mW   |
 
 ## Functional Overview
+
+### Block Diagram
+![BlockDiagram](assets/BlockDiagram.png)
+
 ### Board Topology 
 
 ![Board topology top](assets/boardTopologyTop.png)
@@ -347,17 +350,19 @@ Lors de l’ installation et de l’ exploitation de ce dispositif, la distance 
 
 Hereby, Arduino S.r.l. declares that this product is in compliance with essential requirements and other relevant provisions of Directive 2014/53/EU. This product is allowed to be used in all EU member states.
 
-| Frequency bands | Maximum output power (ERP) |
-| :-------------- | :------------------------- |
-| 863-870Mhz      | -3.22dBm                   |
+| Frequency bands          | Maximum output power (EIRP) |
+| :------------------------| :------------------------- |
+| 2402-2480MHz(EDR)        | 6.24dBm                    |
+| 2402-2480MHz(BLE)        | 6.30dBm                    |
+| 2402-2472MHz(2.4G WiFi)  | 13.61dBm                   |
 
  
 
 ## Company Information
 
-| Company name    | Arduino SA.                                    |
+| Company name    | Arduino Srl.                                   |
 | --------------- | ---------------------------------------------- |
-| Company Address | Via Ferruccio Pelli 14 6900 Lugano Switzerland |
+| Company Address | Via Andrea Appiani, 25 20900 MONZA Italy       |
 
 ## Reference Documentation
 
